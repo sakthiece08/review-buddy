@@ -2,7 +2,7 @@ name: Build
 
 on:
   push:
-    branches: [ "main", "fix/*", "feat/*" ]
+    branches: ["master", "main", "fix/*", "feat/*" ]
     paths-ignore:
       - "*.md"
       - ".gitignore"
